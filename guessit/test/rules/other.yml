@@ -114,13 +114,6 @@
 ? CC
 : other: CC
 
-? LD
-? LDTV
-: other: LD
-
-? MD
-: other: MD
-
 ? -The complete movie
 : other: Complete
 

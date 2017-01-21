@@ -38,6 +38,8 @@ def audio_codec():
 
     rebulk.defaults(name="audio_codec", conflict_solver=audio_codec_priority)
 
+    rebulk.regex("MIC", "MD", "AC3MD", "MicDubbed", value="MD")
+    rebulk.regex("LD", "AC3LD", "LineDubbed", "Dubbed", value="LineDubbed")
     rebulk.regex("MP3", "LAME", r"LAME(?:\d)+-?(?:\d)+", value="MP3")
     rebulk.regex("Dolby", "DolbyDigital", "Dolby-Digital", "DDP?", value="DolbyDigital")
     rebulk.regex("DolbyAtmos", "Dolby-Atmos", "Atmos", value="DolbyAtmos")

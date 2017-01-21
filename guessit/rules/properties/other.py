@@ -64,7 +64,7 @@ def other():
 
     for value in (
             'Screener', 'Remux', 'Remastered', '3D', 'HD', 'mHD', 'HDLight', 'HQ', 'DDC', 'HR', 'PAL', 'SECAM', 'NTSC',
-            'CC', 'LD', 'MD', 'XXX'):
+            'CC', 'XXX'):
         rebulk.string(value, value=value)
     rebulk.string('LDTV', value='LD')
 

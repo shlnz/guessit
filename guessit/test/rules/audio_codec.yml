@@ -2,6 +2,18 @@
 # Use $ marker to check inputs that should not match results.
 
 
+? +mic
+? +MD
+? +AC3MD
+? +MicDubbed
+: audio_codec: MD
+
+? +Dubbed
+? +LD
+? +AC3LD
+? +LineDubbed
+: audio_codec: LineDubbed
+
 ? +MP3
 ? +lame
 ? +lame3.12
